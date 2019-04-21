@@ -4,13 +4,14 @@
 
 1555863759 c:\programowanie\codeblocksprojects\bazakontakow\structures.h
 
-1555863726 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
+1555866550 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"printing.h"
 	"adding.h"
 	"deleting.h"
+	"save_to_file.h"
 
 1555860311 c:\programowanie\codeblocksprojects\bazakontakow\printing.h
 	"structures.h"
@@ -32,4 +33,12 @@
 1555864809 source:c:\programowanie\codeblocksprojects\bazakontakow\deleting.c
 	"deleting.h"
 	<stddef.h>
+
+1555866520 c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.h
+	"structures.h"
+
+1555866604 source:c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.c
+	"save_to_file.h"
+	<stddef.h>
+	<stdio.h>
 
