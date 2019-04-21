@@ -31,9 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="adding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adding.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="printing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="printing.h" />
+		<Unit filename="structures.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
