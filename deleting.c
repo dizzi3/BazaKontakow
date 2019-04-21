@@ -27,15 +27,45 @@ contact* deleteContact(contact* head){
         //Usuwanie glowy listy
         if(previousContact == NULL){
             currentContact = currentContact->next;
-            free(head);
+
+            freeMemory(head);
+
             head = currentContact;
         }else{
             previousContact->next = currentContact->next;
-            free(currentContact);
+            freeMemory(currentContact);
         }
 
         printf("Contact deleted successfully!\n");
     }
 
     return head;
+}
+
+void freeMemory(contact* con){
+        free(con->address);
+
+        if(con->emailHead != NULL){
+            email_t* nextEmail = con->emailHead->next;
+            while(nextEmail != NULL){
+                free(con->emailHead);
+                con->emailHead = nextEmail;
+                nextEmail = nextEmail->next;
+            }
+
+            free(con->emailHead);
+        }
+
+        if(con->phoneHead != NULL){
+            phone_t* nextPhone = con->phoneHead->next;
+            while(nextPhone != NULL){
+                free(con->phoneHead);
+                con->phoneHead = nextPhone;
+                nextPhone = nextPhone->next;
+            }
+
+            free(con->phoneHead);
+        }
+
+        free(con);
 }

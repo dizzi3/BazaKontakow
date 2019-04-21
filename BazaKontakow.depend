@@ -15,7 +15,7 @@
 1555860311 c:\programowanie\codeblocksprojects\bazakontakow\printing.h
 	"structures.h"
 
-1555860381 source:c:\programowanie\codeblocksprojects\bazakontakow\printing.c
+1555863759 source:c:\programowanie\codeblocksprojects\bazakontakow\printing.c
 	"printing.h"
 	<stddef.h>
 
@@ -26,6 +26,10 @@
 	"adding.h"
 	<stddef.h>
 
-1555863692 c:\programowanie\codeblocksprojects\bazakontakow\deleting.h
+1555864842 c:\programowanie\codeblocksprojects\bazakontakow\deleting.h
 	"structures.h"
+
+1555864809 source:c:\programowanie\codeblocksprojects\bazakontakow\deleting.c
+	"deleting.h"
+	<stddef.h>
 
