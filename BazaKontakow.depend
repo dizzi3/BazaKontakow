@@ -2,14 +2,15 @@
 1554239626 source:c:\programowanie\codeblocksprojects\bazakontakow\structures.c
 	"structures.h"
 
-1555860846 c:\programowanie\codeblocksprojects\bazakontakow\structures.h
+1555863759 c:\programowanie\codeblocksprojects\bazakontakow\structures.h
 
-1555860568 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
+1555863726 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"printing.h"
 	"adding.h"
+	"deleting.h"
 
 1555860311 c:\programowanie\codeblocksprojects\bazakontakow\printing.h
 	"structures.h"
@@ -24,4 +25,7 @@
 1555860687 source:c:\programowanie\codeblocksprojects\bazakontakow\adding.c
 	"adding.h"
 	<stddef.h>
+
+1555863692 c:\programowanie\codeblocksprojects\bazakontakow\deleting.h
+	"structures.h"
 

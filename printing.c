@@ -3,7 +3,7 @@
 
 void printAllContacts(contact* contactHead){
     if(contactHead == NULL){
-        printf("Zero contacts available to print!");
+        printf("Zero contacts available to print!\n");
         return;
     }
 
@@ -54,7 +54,7 @@ void printPhone(phone_t* phoneHead){
 
 void printEmail(email_t* emailHead){
     if(emailHead == NULL){
-        printf("Zero emails.");
+        printf("Zero emails.\n");
         return;
     }
 
