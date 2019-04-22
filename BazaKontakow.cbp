@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="adding.h" />
+		<Unit filename="deleting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deleting.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -42,6 +46,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="printing.h" />
+		<Unit filename="read_from_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read_from_file.h" />
+		<Unit filename="save_to_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="save_to_file.h" />
 		<Unit filename="structures.h" />
 		<Extensions>
 			<code_completion />
