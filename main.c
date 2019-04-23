@@ -8,10 +8,10 @@
 #include "read_from_file.h"
 #include <stdio.h>
 
-void menu();
+void menu(); //!< funkcja, ktora sprawdza, jaka operacje uzytkownik chce aktualnie wykonac
 
-const char* contactsFilename = "contacts.txt";
-contact* contactHead = NULL;
+const char* contactsFilename = "contacts.txt"; /*!< sciezka pliku do zapisu/odczytu danych */
+contact* contactHead = NULL; /*!< glowa listy kontaktow */
 
 int main()
 {
@@ -46,7 +46,7 @@ void menu(){
             saveContacts(contactsFilename, contactHead);
         }
         else if(wybor == 4){
-            contactHead = deleteContact(contactHead);
+            contactHead = edit(contactHead);
             saveContacts(contactsFilename, contactHead);
         }
         else if(wybor == 0)

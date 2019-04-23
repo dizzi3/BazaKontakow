@@ -32,7 +32,7 @@ typedef struct email_struct{
 } email_t;
 
 /*! typ struktury bedacy lista kontaktow
-zawiera w sobie liste telefonow, emaili
+zawiera w sobie liste telefonow, adresow email
 oraz strukture adresu */
 typedef struct contact_struct{
 
