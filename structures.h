@@ -8,6 +8,7 @@ typedef struct phone_struct phone_t;
 typedef struct email_struct email_t;
 typedef struct contact_struct contact;
 
+/*!typ struktury opisujacej adres */
 typedef struct address_struct{
 
     char city[DEFAULT_ARRAY_SIZE];
@@ -18,16 +19,21 @@ typedef struct address_struct{
 
 } address_t;
 
+/*! typ struktury bedacy lista numerow telefonow */
 typedef struct phone_struct{
     int phoneNumber;
     phone_t* next;
 } phone_t;
 
+/*! typ struktury bedacy lista adresow email */
 typedef struct email_struct{
     char emailAddress[DEFAULT_ARRAY_SIZE];
     email_t* next;
 } email_t;
 
+/*! typ struktury bedacy lista kontaktow
+zawiera w sobie liste telefonow, emaili
+oraz strukture adresu */
 typedef struct contact_struct{
 
     int ID;

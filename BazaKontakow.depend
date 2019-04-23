@@ -2,9 +2,9 @@
 1554239626 source:c:\programowanie\codeblocksprojects\bazakontakow\structures.c
 	"structures.h"
 
-1555863759 c:\programowanie\codeblocksprojects\bazakontakow\structures.h
+1556007226 c:\programowanie\codeblocksprojects\bazakontakow\structures.h
 
-1555943418 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
+1556008550 source:c:\programowanie\codeblocksprojects\bazakontakow\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -13,42 +13,54 @@
 	"deleting.h"
 	"save_to_file.h"
 	"read_from_file.h"
+	<stdio.h>
 
-1555860311 c:\programowanie\codeblocksprojects\bazakontakow\printing.h
+1556007226 c:\programowanie\codeblocksprojects\bazakontakow\printing.h
 	"structures.h"
 
 1555863759 source:c:\programowanie\codeblocksprojects\bazakontakow\printing.c
 	"printing.h"
 	<stddef.h>
 
-1555860697 c:\programowanie\codeblocksprojects\bazakontakow\adding.h
+1555949249 c:\programowanie\codeblocksprojects\bazakontakow\adding.h
 	"structures.h"
 
-1555860687 source:c:\programowanie\codeblocksprojects\bazakontakow\adding.c
+1555949891 source:c:\programowanie\codeblocksprojects\bazakontakow\adding.c
 	"adding.h"
 	<stddef.h>
+	<stdlib.h>
 
-1555864842 c:\programowanie\codeblocksprojects\bazakontakow\deleting.h
+1555944869 c:\programowanie\codeblocksprojects\bazakontakow\deleting.h
 	"structures.h"
 
 1555864809 source:c:\programowanie\codeblocksprojects\bazakontakow\deleting.c
 	"deleting.h"
 	<stddef.h>
 
-1555866520 c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.h
+1556007427 c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.h
 	"structures.h"
+	<stdio.h>
 
-1555872032 source:c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.c
+1555945018 source:c:\programowanie\codeblocksprojects\bazakontakow\save_to_file.c
 	"save_to_file.h"
 	<stddef.h>
 	<stdio.h>
 
-1555943831 c:\programowanie\codeblocksprojects\bazakontakow\read_from_file.h
+1555946130 c:\programowanie\codeblocksprojects\bazakontakow\read_from_file.h
 	"structures.h"
 	<stdio.h>
 
-1555943854 source:c:\programowanie\codeblocksprojects\bazakontakow\read_from_file.c
+1556008126 source:c:\programowanie\codeblocksprojects\bazakontakow\read_from_file.c
 	"read_from_file.h"
 	<stdlib.h>
 	<stddef.h>
+
+1556008551 source:c:\programowanie\codeblocksprojects\bazakontakow\editing.c
+	"editing.h"
+	"printing.h"
+	"adding.h"
+	<stddef.h>
+
+1555951037 c:\programowanie\codeblocksprojects\bazakontakow\editing.h
+	"structures.h"
 

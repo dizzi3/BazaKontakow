@@ -6,22 +6,53 @@
 #include "deleting.h"
 #include "save_to_file.h"
 #include "read_from_file.h"
+#include <stdio.h>
+
+void menu();
+
+const char* contactsFilename = "contacts.txt";
+contact* contactHead = NULL;
 
 int main()
 {
-    contact* m_contact = NULL;
-
-    int is = 1;
-    if(is == 1){
-        m_contact = loadContactsFromAFile("test.txt");
-        printAllContacts(m_contact);
-    }
-    else{
-        m_contact = addContact(m_contact);
-        m_contact = addContact(m_contact);
-        saveContacts("test.txt", m_contact);
-        printAllContacts(m_contact);
-    }
+    contactHead = loadContactsFromAFile(contactsFilename);
+    menu();
 
     return 0;
+}
+
+void menu(){
+    while(1){
+        printf("Wybierz co chcesz zrobic:\n");
+        printf("1) Wyswietl kontakty\n");
+        printf("2) Dodaj kontakt\n");
+        printf("3) Usun kontakt\n");
+        printf("4) Edytuj kontakt\n");
+        printf("0) Wyjdz\n");
+        printf("Wybor: ");
+        int wybor;
+        scanf("%d", &wybor);
+
+        getchar();
+
+        if(wybor == 1)
+            printAllContacts(contactHead);
+        else if(wybor == 2){
+            contactHead = addContact(contactHead);
+            saveContacts(contactsFilename, contactHead);
+        }
+        else if(wybor == 3){
+            contactHead = deleteContact(contactHead);
+            saveContacts(contactsFilename, contactHead);
+        }
+        else if(wybor == 4){
+            contactHead = deleteContact(contactHead);
+            saveContacts(contactsFilename, contactHead);
+        }
+        else if(wybor == 0)
+            return;
+        else printf("Wybrales niewlasciwa opcje!");
+
+        printf("\n\n");
+    }
 }

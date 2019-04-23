@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="deleting.h" />
+		<Unit filename="editing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editing.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

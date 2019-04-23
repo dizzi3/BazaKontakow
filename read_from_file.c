@@ -7,10 +7,8 @@ contact* loadContactsFromAFile(char* filename){
 
     FILE* file = fopen(filename, "r");
 
-    if(file == NULL){
-        printf("Error while reading contacts from a file!\n");
+    if(file == NULL)
         return NULL;
-    }
 
     contact* head = malloc(sizeof(contact));
     contact* currentContact = head;

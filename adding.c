@@ -1,8 +1,9 @@
 #include "adding.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 phone_t* enterPhoneNumbers(int nNumbers){
-    phone_t* head = (phone_t*)malloc(sizeof(phone_t));
+    phone_t* head = malloc(sizeof(phone_t));
 
     if(head == NULL)
         return NULL;
@@ -15,7 +16,7 @@ phone_t* enterPhoneNumbers(int nNumbers){
     int i = 2;
     for(; i <= nNumbers; i++){
 
-        phone_t* buffer = (phone_t*)malloc(sizeof(phone_t));
+        phone_t* buffer = malloc(sizeof(phone_t));
 
         if(buffer != NULL){
             printf("Enter %d. number: ", i);
@@ -66,7 +67,6 @@ contact* addContact(contact* contactHead){
 
     address_t* address = malloc(sizeof(address_t));
 
-    printf("Adding new contact, enter the following data:\n");
     printf("Name: ");
     scanf ("%[^\n]%*c", newContact->name);
     printf("Surname: ");
